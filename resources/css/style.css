@@ -1,3 +1,9 @@
+/* border for Divs as help
+div {
+  border: 1px solid red;
+}
+*/
+
 /* Universal Styles */
 
 html {
@@ -41,6 +47,7 @@ header {
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
+  z-index: 10;
 }
 
 header .content {
@@ -112,11 +119,19 @@ header .mobile {
 
 /* Sign Up Section */
 
+.banner {
+  background-image: url(../images/banner-landingpage.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 #sign-up-section {
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
   height: 43.5rem;
+  padding-left: 100px;
 }
 
 #sign-up-cta {
